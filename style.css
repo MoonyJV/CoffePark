@@ -1,0 +1,35 @@
+header,footer {
+    background-color: rgb(53, 35, 35);
+}
+
+.color1 {
+    background-color: rgb(80, 63, 63);
+}
+
+.color2 {
+    background-color: rgb(105, 89, 89);
+}
+
+.formulario {
+    background-color: rgb(88, 74, 74);
+}
+
+.rp {
+    resize: none;
+}
+
+
+main {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 720px){
+    .amb {
+        flex-direction: column-reverse;
+    }
+}
